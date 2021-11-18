@@ -12,3 +12,13 @@ app.get("/",(req, res) => {
     res.sendFile(path.join("C:/Users/Nerox/Desktop/DH Ejercicios/clase 1102/views/home.html"))
 }
 )
+
+app.get("/register",(req, res) => {
+    res.sendFile(path.join("C:/Users/Nerox/Desktop/DH Ejercicios/clase 1102/views/register.html"))
+}
+)
+
+app.get("/login",(req, res) => {
+    res.sendFile(path.join("C:/Users/Nerox/Desktop/DH Ejercicios/clase 1102/views/login.html"))
+}
+)
